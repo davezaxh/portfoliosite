@@ -3,8 +3,16 @@ import Image from 'next/image'; // Add this import
 
 const IndexPage = () => (
   <Layout title="Davezaxh 💡">
-    <Image src="/path/to/image1.jpg" alt="Description" width={500} height={300} />
-    <Image src="/path/to/image2.jpg" alt="Description" width={500} height={300} />
+     <Image
+      src="/images/xera.svg"
+      alt="LoadImage"
+      className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
+    />
+    <Image
+      src="/images/shapes.svg"
+      alt="hero"
+      className="absolute w-full left-24 bottom-24 animate-blob2"
+    />
     <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
       <div className="text-center space-y-10">
         <h3 className="font-light text-xl uppercase tracking-wider">
